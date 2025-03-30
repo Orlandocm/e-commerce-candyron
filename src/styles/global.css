@@ -1,0 +1,77 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 10px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-dark {
+    background-color: rgba(31, 41, 55, 0.8); /* Dark mode background */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ec4899; /* Pink color */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: #374151; /* Dark gray */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ec4899; /* Pink color on hover */
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon-button {
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .icon-button:hover {
+    background-color: #f3f4f6; /* Light gray hover effect */
+  }
+  
+  .icon-button.dark:hover {
+    background-color: #2d3748; /* Dark mode hover effect */
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    color: #374151;
+  }
+  
+  .icon-button:hover .icon {
+    color: #ec4899; /* Pink color on hover */
+  }
